@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Lora", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Lora", sans-serif;
+  --font-mono: "Lora", ui-monospace, SFMono-Regular, monospace;
+
+  /* Premium Clean Cool Slate-Gray Palette (from design blueprint) */
+  --color-gray-50: #F8FAFC;
+  --color-gray-100: #F1F5F9;
+  --color-gray-150: #E2E8F0;
+  --color-gray-200: #CBD5E1;
+  --color-gray-300: #94A3B8;
+  --color-gray-400: #64748B;
+  --color-gray-500: #475569;
+  --color-gray-650: #334155;
+  --color-gray-600: #334155;
+  --color-gray-700: #1E293B;
+  --color-gray-800: #0F172A;
+  --color-gray-850: #0B1329;
+  --color-gray-900: #0F172A;
+  --color-gray-950: #0B0F19;
+
+  /* Premium Deep Pine / Emerald Accent Palette (from design blueprint) */
+  --color-emerald-50: #F0FDF4;
+  --color-emerald-100: #DCFCE7;
+  --color-emerald-200: #BBF7D0;
+  --color-emerald-300: #86EFAC;
+  --color-emerald-400: #4ADE80;
+  --color-emerald-500: #22C55E;
+  --color-emerald-600: #035A42; /* Main deep forest green/emerald */
+  --color-emerald-700: #044E3A;
+  --color-emerald-800: #064030;
+  --color-emerald-950: #022C20;
+  --color-emerald-900: #02231A;
+
+  /* Accent Blue-Slate Tones */
+  --color-sky-50: #F0F9FF;
+  --color-sky-100: #E0F2FE;
+  --color-sky-200: #BAE6FD;
+  --color-sky-300: #7DD3FC;
+  --color-sky-400: #38BDF8;
+  --color-sky-500: #0EA5E9;
+  --color-sky-600: #0284C7;
+  --color-sky-700: #0369A1;
+  --color-sky-850: #0C1E36;
+  --color-sky-800: #075985;
+  --color-sky-900: #0C4A6E;
+  --color-sky-950: #082F49;
+
+  /* Neutral Slate for general UI widgets */
+  --color-teal-50: #F0FDFA;
+  --color-teal-100: #CCFBF1;
+  --color-teal-200: #99F6E4;
+  --color-teal-300: #5EEAD4;
+  --color-teal-400: #2DD4BF;
+  --color-teal-500: #14B8A6;
+  --color-teal-600: #0D9488;
+  --color-teal-700: #0F766E;
+  --color-teal-800: #115E59;
+  --color-teal-900: #134E4A;
+  --color-teal-950: #042F2E;
+}
+
+/* Custom scrollbars and styling utilities */
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+

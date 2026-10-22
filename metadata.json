@@ -1,0 +1,6 @@
+{
+  "name": "Motes Envirotech",
+  "description": "Industrial environmental solutions, wastewater treatment plants, solid waste management, and engineering consultancy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
